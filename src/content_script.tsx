@@ -64,7 +64,7 @@ const initializeFocusHandlers = (logger?: Logger) => {
 
     styledElements.push(activeElement);
 
-    activeElement.style.outline = "2px #00d0ff dashed";
+    activeElement.style.outline = "4px rgb(255, 123, 0) dashed";
     activeElement.style.outlineOffset = "-1px";
 
     if (window.scrollY != lastScrollYPos && !firstFocus) {
